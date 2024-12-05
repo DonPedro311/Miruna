@@ -1,0 +1,106 @@
+html, body {
+    margin: 0;                  /* Usunięcie marginesów */
+    padding: 0;                 /* Usunięcie wewnętrznych odstępów */
+    font-family: 'Merienda', cursive;   /* Czcionka */
+    scroll-behavior: smooth; /* Dodaje płynne przewijanie */
+}
+
+
+
+
+.menu {
+    display: flex;              /* Wyświetlanie elementów w jednej linii */
+    justify-content: center;    /* Wyśrodkowanie elementów w poziomie */
+    align-items: center;        /* Wyśrodkowanie elementów w pionie */
+    gap: 20px;                  /* Większe odstępy między elementami */
+}
+
+
+/* Styl podstawowy dla przycisku */
+
+button {
+    background-color: #fbfbfb;  /*  tło */
+    color: black;               /* kolor tekst */
+    padding: 10px 20px;         /* Wewnętrzne odstępy w przycisku */
+    font-size: 30px;            /* Rozmiar czcionki */
+    border: none;               /* Brak obramowania */
+    cursor: pointer;           /* Kursor w formie ręki */
+    border-radius: 5px;         /* Zaokrąglenie rogów */
+    transition: background-color 0.3s, transform 0.2s ease-in-out; /* Płynne przejścia dla koloru tła i transformacji */
+    font-family: 'Merienda', cursive;   /* Czcionka */
+}
+
+/* Efekt przycisku po najechaniu */
+button:hover {
+    background-color: #e0e4e0;  /* Ciemniejszy szary przy najechaniu */
+    transform: scale(1.1);       /* Powiększenie przycisku przy najechaniu */
+}
+
+/* Efekt przycisku po kliknięciu */
+button:active {
+    background-color: #e0e4e0;  /* Jeszcze ciemniejszy zielony */
+    transform: scale(0.95);      /* Zmniejszenie przycisku przy kliknięciu */
+
+
+
+}
+.opis {
+    padding: 20px;              /* Wewnętrzne odstępy */
+    display: flex
+    flex-wrap: wrap;            /* Zawijanie elementów */
+    font-size: 24px;            /* Rozmiar czcionki */
+    font-family: 'Merienda', cursive;   /* Czcionka */
+    border-radius: 10px;        /* Zaokrąglenie rogów */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Cień */
+    max-width: 100%;             /* Maksymalna szerokość 100% */
+}
+
+
+
+.szare{        /* zdjecie szare w "O nas" */
+float: right;
+max-width:30%;
+margin-top: 5px;
+
+}
+
+.im2 {
+    float: left;
+    max-width: 50%; /* Opcjonalnie: dostosowanie maksymalnej szerokości */
+    margin-right: 20px; /* Opcjonalnie: odstęp po prawej stronie */
+    margin-top: 20px; /* Margines od góry */
+}
+
+.oferta1 {
+    background-color: #f0f0f0b7;  /* Jasnoszare tło */
+    padding: 20px;              /* Wewnętrzne odstępy */
+    font-size: 24px;            /* Rozmiar czcionki */
+    font-family: 'Merienda', cursive;   /* Czcionka */
+    border-radius: 10px;        /* Zaokrąglenie rogów */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Cień */
+    max-width: 100%;             /* Maksymalna szerokość 100% */
+    gap: 20px;                  /* Odstęp między elementami */
+    margin-top: 20px;           /* Odstęp od góry */
+}
+
+
+.NaglowekOferty {
+    font-size: 34px;            /* Rozmiar czcionki */
+    font-family: 'Merienda', cursive;   /* Czcionka */
+    float: center;
+}
+
+.szary-pasek {
+    bottom: 0;
+    width: 100%;
+    height: 140px;
+    background-color: #d3d3d3;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 15px;
+    font-family: 'Merienda', cursive;
+    display: flex;
+    flex-direction: column; /* Ustawienie elementów w kolumnie */
+    justify-content: center; /* Wyśrodkowanie elementów w pionie */
+    align-items: center; /* Wyśrodkowanie elementów w poziomie */
+    line-height: 0.2; /* Mniejsze odstępy między liniami napisów */
+}
