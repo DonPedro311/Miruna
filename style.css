@@ -57,18 +57,22 @@ button:active {
 
 
 
-.szare{        /* zdjecie szare w "O nas" */
-float: right;
-max-width:30%;
-margin-top: 5px;
-
+.szare {        /* zdjecie szare w "O nas" */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 75%;
+    margin-top: 10px;
 }
 
+
+
 .im2 {
-    float: left;
-    max-width: 50%; /* Opcjonalnie: dostosowanie maksymalnej szerokości */
-    margin-right: 20px; /* Opcjonalnie: odstęp po prawej stronie */
-    margin-top: 20px; /* Margines od góry */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    margin-top: 10px;
 }
 
 .oferta1 {
